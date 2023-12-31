@@ -1,0 +1,227 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    
+
+}
+
+body {
+    background-color: black;
+    min-width: 160vh;
+}
+
+header h3 {
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 44px;
+
+
+
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    margin: 7px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.img-user {
+
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.btn-rn{
+    font-weight: bold;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(105, 40, 218);
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.btn-rn:hover{
+    
+    background-color: pink;
+}
+
+
+
+.sec-1 h1 {
+    cursor: blink;
+    margin: 10px;
+    color: white;
+    position: relative;
+    top: 50px;
+    font-weight: 700;
+    font-size: 100px;
+    padding: 10px;
+}
+
+.para-TF {
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    position: relative;
+    top: 35px;
+    padding: 10px;
+}
+
+.btn-2-rn {
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(80, 9, 202);
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 24px;
+    left: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+
+
+}
+
+.btn-2-rn:hover {
+    color: rgb(185, 185, 185);
+    background-color: rgb(48, 2, 128);
+
+}
+
+
+
+     /* HEADING MEET THE SPEAKER  */
+.h4{
+    color:white;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px;
+}
+     /* IMG CONTAINER speakers
+       */
+.image-container {
+    
+    display: inline-flex;
+    justify-content: space-between;
+    max-width: 600px; /* Adjust the max-width as needed */
+  
+  }
+  
+  .image-container img {
+    max-width: 50%;
+    margin: 30px;
+    position: relative
+  }
+          /* FOOTER HERE  */
+  .site-footer {
+    background-color: rgb(80, 9, 202); /* Purple background color */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .site-footer p {
+    margin: 0px;
+    
+  }
+
+         /* MEDIA QUERY HERE STARTED  */
+@media only screen and (max-width: 653px) {
+  nav{
+    position: relative;
+    transition: .7s;
+    left: 100px;
+
+  }
+  }
+  @media only screen and (max-width: 529px) {
+    nav{
+      position: relative;
+      transition: .7s;
+      left: 140px;
+  
+    }
+    }
+    @media only screen and (max-width: 475px) {
+        nav{
+          position: relative;
+          transition: .7s;
+          left: 160px;
+      
+        }
+        }
+        @media only screen and (max-width: 375px) {
+            nav{
+              position: relative;
+              transition: .7s;
+              left: 190px;
+              display: inline-block;
+          
+            }
+            }
+            .contact-form-container {
+              width: 100%;
+                background-color: rgb(80, 9, 202);
+                color: #ffffff; /* White text color for better readability on a dark background */
+                text-align: center;
+                padding: 40px;
+              }
+              
+              .contact-form {
+                max-width: 600px;
+                margin: 0 auto;
+              }
+              
+              .contact-form label {
+                display: block;
+                margin-bottom: 8px;
+              }
+              
+              .contact-form input,
+              .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+              }
+              
+              .contact-form button {
+                background-color: #ffffff; /* White background color for the button */
+                color: rgb(80, 9, 202);
+                padding: 12px 20px;
+                border: none;
+                cursor: pointer;
+              }
+              
+              .contact-form button:hover {
+                background-color: #b578f7; /* Light gray background color on hover */
+              }
+              .contact-form-container input{
+                width: 400px;
+                border-radius: 20px;
+              }
